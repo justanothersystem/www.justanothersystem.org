@@ -9,6 +9,7 @@
     ]
   },
   "scripts": {
+    "start": "serve ./site",
     "dev": "browser-sync start --server 'site' --files 'site' --no-notify"
   },
   "repository": {
@@ -23,5 +24,8 @@
   "homepage": "https://github.com/justanothersystem/www.justanothersystem.org#readme",
   "devDependencies": {
     "browser-sync": "^2.18.13"
+  },
+  "dependencies": {
+    "serve": "latest"
   }
 }
