@@ -1,0 +1,27 @@
+{
+  "name": "www.justanothersystem.org",
+  "version": "1.0.0",
+  "description": "Just Another System's homepage.",
+  "now": {
+    "alias": [
+      "justanothersystem.org",
+      "www.justanothersystem.org"
+    ]
+  },
+  "scripts": {
+    "dev": "browser-sync start --server 'site' --files 'site' --no-notify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justanothersystem/www.justanothersystem.org.git"
+  },
+  "author": "JAS",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/justanothersystem/www.justanothersystem.org/issues"
+  },
+  "homepage": "https://github.com/justanothersystem/www.justanothersystem.org#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13"
+  }
+}
